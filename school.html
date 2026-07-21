@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="school.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #e3f2fd;" data-bs-theme="light">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-3 text-primary" href="#">ABCSchool</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+<a class="nav-link active fw-bold text-primary" aria-current="page" href="#">Home</a>                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                        
+                    </li>
+                    <li>
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+                <div class="d-flex gap-3">
+                    <a href="login.html" class="btn btn-info"> Login</a>
+              
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Curosel-->
+
+    <section id="carouselExampleDark" class="carousel carousel-dark slide">
+
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&h=600&fit=crop"
+                    class="d-block w-100" alt="Artificial Intelligence">
+
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    <h5>Artificial Intelligence</h5>
+                    <p>Building the future with AI-powered innovations.</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=600&fit=crop"
+                    class="d-block w-100" alt="Modern Classroom">
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Smart Classrooms</h5>
+                    <p>Technology transforming the learning experience.</p>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=600&fit=crop"
+                    class="d-block w-100" alt="Programming">
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Programming & Innovation</h5>
+                    <p>Learning modern technologies for tomorrow's world.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </section>
+
+    <!--Academic section-->
+
+    <section class="container my-5">
+
+        <h1 class="text-center fw-bold" id="academic" style="color: #0c92f3;">Academic Achievements</h1>
+
+        <p class="text-center text-secondary fs-5 mx-auto mb-5">
+            <em>"Empowering Minds, Inspiring Excellence."</em><br>
+            Our students consistently achieve outstanding academic results through dedicated learning,
+            expert guidance, and participation in prestigious competitions at school, district, state,
+            and national levels.
+        </p>
+
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600" class="card-img-top"
+                        alt="Academic Excellence">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Academic Excellence</h5>
+
+                        <p class="card-text">
+                            Our students consistently achieve excellent results in board examinations,
+                            securing top ranks and demonstrating outstanding academic performance every year.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://th.bing.com/th/id/R.12d396953fdcce10615ebda156137549?rik=tOlMKteZ1T0lug&riu=http%3a%2f%2fphotos.prnewswire.com%2fprnfull%2f20161116%2f440046&ehk=XFeQsEZRgR4JXNzHMXuIr6%2btYoKvrfWmuyox3acYQz8%3d&risl=&pid=ImgRaw&r=0" class="card-img-top"
+                        alt="Olympiad">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Olympiad Success</h5>
+
+                        <p class="card-text">
+                            Students actively participate in Mathematics, Science, English, and Cyber Olympiads,
+                            winning medals and certificates at district, state, and national levels.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600" class="card-img-top"
+                        alt="Innovation">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Innovation & Science</h5>
+
+                        <p class="card-text">
+                            Students showcase their creativity through science exhibitions, innovation projects,
+                            quizzes, and research competitions, earning recognition for their achievements.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Sports section-->
+    <section class="container my-5">
+        <h2 class="text-center mb-5 fw-bold" id="sports" style="color: #0c92f3;">Sports</h2>
+        <p class="text-center text-muted fs-5 mb-5">
+            <em>"Train Hard, Play Fair, Win Together."</em>
+        </p>
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?w=600" class="card-img-top"
+                        alt="Football">
+                    <div class="card-body">
+                        <h5 class="card-title">Volleyball Excellence</h5>
+                        <p class="card-text">
+                            Volleyball develops teamwork, leadership, discipline, and competitive spirit through
+                            expert
+                            coaching and regular participation in inter-school and state-level tournaments. </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600" class="card-img-top"
+                        alt="Cricket">
+                    <div class="card-body">
+                        <h5 class="card-title">Cycling</h5>
+                        <p class="card-text">
+                            Cycling promotes physical fitness, endurance, confidence, and environmental awareness
+                            while
+                            encouraging students to adopt a healthy lifestyle,competitive spirit.</p> <a href="#"
+                            class="btn btn-primary">Read
+                            More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600" class="card-img-top"
+                        alt="Basketball">
+                    <div class="card-body">
+                        <h5 class="card-title">Yoga</h5>
+                        <p class="card-text">
+                            Yoga is an essential part of our curriculum, helping students improve flexibility,
+                            concentration, mental well-being, and emotional balance through daily practice and
+                            meditation </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Choose Us-->
+
+    <section class="container my-5">
+        <h1 class="text-center mb-5 fw-bold" id="why" style="color: #0c92f3;">Why Choose Us</h1>
+
+        <!-- Row 1 (Image Left) -->
+        <div class="container my-5">
+
+            <div class="row">
+
+                <!-- Left Column -->
+                <div class="col-md-6">
+
+                    <div class="row align-items-center mb-4">
+                        <div class="col-4">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=700"
+                                class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col-8">
+                            <h4>Expert Faculty</h4>
+                            <p>Our experienced faculty provide quality education and practical knowledge.</p>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center mb-4">
+                        <div class="col-4">
+                            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=700"
+                                class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col-8">
+                            <h4>Placement Support</h4>
+                            <p>Career guidance, mock interviews and campus recruitment support.</p>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=700"
+                                class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col-8">
+                            <h4>Skill Development</h4>
+                            <p>Workshops, coding sessions and personality development programs.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-md-6">
+
+                    <div class="row align-items-center mb-4">
+                        <div class="col-4">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=700"
+                                class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col-8">
+                            <h4>Modern Infrastructure</h4>
+                            <p>Smart classrooms, computer labs and digital learning facilities.</p>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center mb-4">
+                        <div class="col-4">
+                            <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=700"
+                                class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col-8">
+                            <h4>Digital Library</h4>
+                            <p>Access thousands of books, journals and e-learning resources.</p>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=700"
+                                class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col-8">
+                            <h4>Safe Campus</h4>
+                            <p>24/7 CCTV surveillance and a secure learning environment.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--FAQ-->
+
+   <section class="py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4" id="faq" style="color: #0c92f3;">
+            Frequently Asked Questions
+        </h2>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        1. What is the admission process?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Parents can visit the school campus</strong> or apply online by submitting the
+                        admission form along with the required documents. Admissions are granted based on seat
+                        availability and eligibility.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2. How does the school ensure student safety?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Student safety is our top priority. The campus is equipped with
+                        <strong>CCTV surveillance</strong>, secure entry systems, trained staff, and regular safety
+                        protocols.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="#collapseThree">
+                        3. How can I contact the school for more information?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>You can reach us by phone, email,</strong> or by visiting our campus during working
+                        hours. Our admissions team is always happy to assist you.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <br>
+
+    <!--Footer-->
+
+  <footer class="bg-white text-dark py-5 mt-5 border-top">
+    <div class="container">
+        <div class="row">
+
+            <!-- Facilities -->
+            <div class="col-md-6 mb-4">
+                <h3 class="mb-3">Our Facilities</h3>
+
+                <p>✔ Smart Classrooms</p>
+                <p>✔ Computer Lab</p>
+                <p>✔ Digital Library</p>
+                <p>✔ School Transport</p>
+                <p>✔ Sports Complex</p>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-md-6">
+                <h3 class="mb-3">Subscribe to Our Newsletter</h3>
+
+                <p>Stay updated with the latest school events, achievements, and announcements.</p>
+
+                <form class="d-flex">
+                    <input type="email"
+                           class="form-control me-2"
+                           placeholder="Enter your email"
+                           required>
+
+                    <button class="btn btn-warning" type="submit">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+        <hr class="border-dark">
+
+        <div class="text-center">
+            <p class="mb-2">
+                © 2026 ABC School. All Rights Reserved.
+            </p>
+
+            <a href="privacy.html" class="text-dark text-decoration-none mx-2">
+                Privacy Policy
+            </a>
+
+            |
+
+            <a href="terms.html" class="text-dark text-decoration-none mx-2">
+                Terms & Conditions
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+<!-- WhatsApp Button -->
+<a href="https://wa.me/918897265117" class="floating-whatsapp" target="_blank">
+    <i class="bi bi-whatsapp"></i>
+</a>
+
+<!-- Go to Top Button -->
+<a href="#" class="floating-top">
+    <i class="bi bi-arrow-up"></i>
+</a>
+
+</html>
